@@ -13,7 +13,7 @@ function AppServer() {
     this.server.use(cors());
 
     this.server.get('/', (req, res) => {
-        wrapper.response(res, 'success', wrapper.data('T-Res API'), 'This services is running properly.');
+        wrapper.response(res, 'success', wrapper.data('UserService Gawaiku API'), 'This services is running properly.');
     });
 
     //Routing
